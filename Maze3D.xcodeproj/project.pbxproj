@@ -11,12 +11,15 @@
 		0A730BD319A2CDB5006549B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A730BD119A2CDB5006549B3 /* InfoPlist.strings */; };
 		0A730BD519A2CDB5006549B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A730BD419A2CDB5006549B3 /* main.m */; };
 		0A730BD919A2CDB5006549B3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A730BD719A2CDB5006549B3 /* Credits.rtf */; };
-		0A730BDC19A2CDB5006549B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A730BDB19A2CDB5006549B3 /* AppDelegate.m */; };
+		0A730BDC19A2CDB5006549B3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A730BDB19A2CDB5006549B3 /* AppDelegate.mm */; };
 		0A730BDF19A2CDB5006549B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A730BDD19A2CDB5006549B3 /* MainMenu.xib */; };
 		0A730BE719A2CDB6006549B3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A730BE619A2CDB6006549B3 /* SenTestingKit.framework */; };
 		0A730BE819A2CDB6006549B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A730BC819A2CDB5006549B3 /* Cocoa.framework */; };
 		0A730BF019A2CDB6006549B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A730BEE19A2CDB6006549B3 /* InfoPlist.strings */; };
 		0A730BF319A2CDB6006549B3 /* Maze3DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A730BF219A2CDB6006549B3 /* Maze3DTests.m */; };
+		0A730C0119A2D4DB006549B3 /* MyMaze.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A730C0019A2D4DB006549B3 /* MyMaze.mm */; };
+		0A730C0719A40D7D006549B3 /* LinkedList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A730C0619A40D7D006549B3 /* LinkedList.mm */; };
+		0A730C0A19A4161A006549B3 /* Node.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A730C0919A4161A006549B3 /* Node.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,7 @@
 		0A730BD619A2CDB5006549B3 /* Maze3D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maze3D-Prefix.pch"; sourceTree = "<group>"; };
 		0A730BD819A2CDB5006549B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0A730BDA19A2CDB5006549B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0A730BDB19A2CDB5006549B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A730BDB19A2CDB5006549B3 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		0A730BDE19A2CDB5006549B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0A730BE519A2CDB6006549B3 /* Maze3DTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Maze3DTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A730BE619A2CDB6006549B3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -49,6 +52,12 @@
 		0A730BEF19A2CDB6006549B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A730BF119A2CDB6006549B3 /* Maze3DTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maze3DTests.h; sourceTree = "<group>"; };
 		0A730BF219A2CDB6006549B3 /* Maze3DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maze3DTests.m; sourceTree = "<group>"; };
+		0A730BFF19A2D4DB006549B3 /* MyMaze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMaze.h; path = ../MyMaze.h; sourceTree = "<group>"; };
+		0A730C0019A2D4DB006549B3 /* MyMaze.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MyMaze.mm; path = ../MyMaze.mm; sourceTree = "<group>"; };
+		0A730C0519A40D7D006549B3 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		0A730C0619A40D7D006549B3 /* LinkedList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LinkedList.mm; sourceTree = "<group>"; };
+		0A730C0819A4161A006549B3 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		0A730C0919A4161A006549B3 /* Node.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Node.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +124,13 @@
 			isa = PBXGroup;
 			children = (
 				0A730BDA19A2CDB5006549B3 /* AppDelegate.h */,
-				0A730BDB19A2CDB5006549B3 /* AppDelegate.m */,
+				0A730C0819A4161A006549B3 /* Node.h */,
+				0A730C0919A4161A006549B3 /* Node.mm */,
+				0A730C0519A40D7D006549B3 /* LinkedList.h */,
+				0A730C0619A40D7D006549B3 /* LinkedList.mm */,
+				0A730BFF19A2D4DB006549B3 /* MyMaze.h */,
+				0A730C0019A2D4DB006549B3 /* MyMaze.mm */,
+				0A730BDB19A2CDB5006549B3 /* AppDelegate.mm */,
 				0A730BDD19A2CDB5006549B3 /* MainMenu.xib */,
 				0A730BCF19A2CDB5006549B3 /* Supporting Files */,
 			);
@@ -262,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A730BD519A2CDB5006549B3 /* main.m in Sources */,
-				0A730BDC19A2CDB5006549B3 /* AppDelegate.m in Sources */,
+				0A730BDC19A2CDB5006549B3 /* AppDelegate.mm in Sources */,
+				0A730C0119A2D4DB006549B3 /* MyMaze.mm in Sources */,
+				0A730C0719A40D7D006549B3 /* LinkedList.mm in Sources */,
+				0A730C0A19A4161A006549B3 /* Node.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
